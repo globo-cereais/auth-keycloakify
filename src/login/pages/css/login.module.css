@@ -1,0 +1,44 @@
+.forgotPwd {
+    color: #666666 !important;
+}
+
+.loginBtn {
+    background: linear-gradient(90deg, #389b51 0%, #d6d63e 100%) !important;
+    border-radius: 12px;
+    border: 0px !important;
+}
+
+.loginBtn:active,
+.loginBtn:focus {
+    border: 0px !important;
+    outline: 0px !important;
+}
+
+.loginForm {
+    color: #666666 !important;
+}
+
+.formField {
+    position: relative;
+}
+
+.loginForm > * > label > span {
+    color: #666666 !important;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.loginForm * input[type="text"],
+.loginForm * input[type="password"] {
+    border-radius: 12px;
+    background: #fff !important;
+    border-color: #dae5dd !important;
+}
+
+.passwordInput {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}

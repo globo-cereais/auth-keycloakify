@@ -1,0 +1,16 @@
+.headerLogo > img {
+    max-height: 80px;
+}
+
+.loginPage {
+    height: 100vh;
+    padding-top: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.formCard {
+    border-color: var(--pf-global--success-color--100);
+}
